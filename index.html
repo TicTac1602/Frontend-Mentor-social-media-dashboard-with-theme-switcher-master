@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Socials Landing Page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+
+<body class="light">
+
+  <header id="header">
+    <div class="top_container">
+      <div class="top_tittles">
+        <h1>Social Media Dashboard</h1>
+        <h3>Total Followers: 23 004</h3>
+      </div>
+      <div class="bar-mobile"></div>
+      <p>Dark mode <label class="switch"><input type="checkbox" id="checkbox" onclick="dark()" name="checkbox"><span class="slider round"></span></label></p>  
+    </div>    
+  </header>
+
+  <div id="offset">
+    <div class="grid-container">
+      <div class="Item_card light" id="Facebook">
+        <div class="card_bar"></div>
+        <p class="name name_right"><img src="images/icon-facebook.svg">@nathanf</p>
+        <p class=" num number">1987</p>
+        <p>Followers</p>
+        <p class="green"><img src="images/icon-up.svg">12 Today </p>
+      </div>
+      <div class="Item_card light" id="Twitter">
+        <div class="card_bar"></div>
+        <p class="name name_right"><img src="images/icon-twitter.svg">@nathanf</p>
+        <p class=" num number">1044</p>
+        <p>Followers</p>
+        <p class="green"><img src="images/icon-up.svg">99 Today </p>
+      </div>
+      <div class="Item_card light" id="Instagram">
+        <div class="card_bar"></div>
+        <p class="name name_right"><img src="images/icon-instagram.svg">@realnathanf</p>
+        <p class="num number">11k</p>
+        <p>Followers</p>
+        <p class="green"><img src="images/icon-up.svg">1099 Today </p>
+      </div>
+      <div class="Item_card light" id="Youtube">
+        <div class="card_bar"></div>
+        <p class="name name_right"><img src="images/icon-youtube.svg">NathanF.</p>
+        <p class="num number">8239</p>
+        <p>Subscribers</p>
+        <p class="red"><img src="images/icon-down.svg">144 Today </p>
+      </div>
+    </div>
+  
+
+    <h1 id="Overview_tittle">Overview - Today</h1>
+      <div class="grid-container-multiple">
+        <div class="Item_card light" id="Page_views">
+          <p class="name name_left">Page Views<img src="images/icon-facebook.svg"></p>
+          <p class="stats number">87<span class="green"><img src="images/icon-up.svg">3%</span></p>
+        </div>
+        <div class="Item_card light" id="Likes">
+          <p class="name name_left">Likes<img src="images/icon-facebook.svg"></p>
+          <p class="stats number">52<span class="red"><img src="images/icon-down.svg">2%</span></p>
+        </div>
+        <div class="Item_card light" id="Likes_insta">
+          <p class="name name_left">Likes<img src="images/icon-instagram.svg"></p>
+          <p class="stats number">5462<span class="green"><img src="images/icon-up.svg">2257%</span></p>
+        </div>
+        <div class="Item_card light" id="Profile_views">
+          <p class="name name_left">Profile Views<img src="images/icon-instagram.svg"></p>
+          <p class="stats number">52k<span class="green"><img src="images/icon-up.svg">1375%</span></p>
+        </div>
+        <div class="Item_card light" id="Retweets">
+          <p class="name name_left">Retweets<img src="images/icon-twitter.svg"></p>
+          <p class="stats number">117<span class="green"><img src="images/icon-up.svg">303%</span></p>
+        </div>
+        <div class="Item_card light" id="Likes_twitter">
+          <p class="name name_left">Likes<img src="images/icon-twitter.svg"></p>
+          <p class="stats number">507<span class="green"><img src="images/icon-up.svg">553%</span></p>
+        </div>
+        <div class="Item_card light" id="Likes_youtube">
+          <p class="name name_left">Likes<img src="images/icon-youtube.svg"></p>
+          <p class="stats number">107<span class="red"><img src="images/icon-down.svg">19%</span></p>
+        </div>
+        <div class="Item_card light" id="Total_views">
+          <p class="name name_left">Total Views<img src="images/icon-youtube.svg"></p>
+          <p class="stats number">1047<span class="red"><img src="images/icon-down.svg">12%</span></p>
+        </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
